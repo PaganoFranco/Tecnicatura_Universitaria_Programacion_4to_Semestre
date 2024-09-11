@@ -51,6 +51,7 @@ class Conexion:
     def cerrarConexiones(cls):
         cls.obtenerPool().closeall()
 
+
 if __name__ == "__main__":
     conexoin1 = Conexion.obtenerConexion()
     Conexion.liberarConexion(conexoin1)

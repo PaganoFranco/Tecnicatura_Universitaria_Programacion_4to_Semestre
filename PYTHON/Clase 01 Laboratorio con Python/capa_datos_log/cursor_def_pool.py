@@ -1,5 +1,5 @@
 from logger_base import log
-from conexion import Conexion
+from capa_datos_log.conexion import Conexion
 
 
 class CursorDelPool:
