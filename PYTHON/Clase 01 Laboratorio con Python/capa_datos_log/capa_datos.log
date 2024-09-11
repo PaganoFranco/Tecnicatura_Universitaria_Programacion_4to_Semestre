@@ -76,3 +76,43 @@
 07: 15: 52 PM:DEBUG [cursor_def_pool.py:23] Commit de la transaccion
 07: 15: 52 PM:DEBUG [conexion.py:48] Regresamos la conexion del pool: <connection object at 0x000001BDDDB02350; dsn: 'user=postgres password=xxx dbname=test_bd host=127.0.0.1 port=5432', closed: 0>
 07: 15: 52 PM:DEBUG [usuario_dao.py:59] Usuario insertado: 1
+07: 46: 18 PM:DEBUG [cursor_def_pool.py:11] Inicio del metodo witch y __enter__
+07: 46: 18 PM:DEBUG [conexion.py:37] Creacion del pool exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x000001C0285AB050>
+07: 46: 18 PM:DEBUG [conexion.py:19] Conexion obtenida del pool: <connection object at 0x000001C02895E570; dsn: 'user=postgres password=xxx dbname=test_bd host=127.0.0.1 port=5432', closed: 0>
+07: 46: 18 PM:DEBUG [usuario_dao.py:20] Seleccinando usuarios
+07: 46: 18 PM:DEBUG [cursor_def_pool.py:17] Se ejecuta el metodo exit
+07: 46: 18 PM:DEBUG [cursor_def_pool.py:23] Commit de la transaccion
+07: 46: 18 PM:DEBUG [conexion.py:48] Regresamos la conexion del pool: <connection object at 0x000001C02895E570; dsn: 'user=postgres password=xxx dbname=test_bd host=127.0.0.1 port=5432', closed: 0>
+07: 46: 18 PM:INFO [menu_app_usuario.py:16] Usuario: 2 Quiroga 654
+07: 46: 18 PM:INFO [menu_app_usuario.py:16] Usuario: 4 Pagano 321
+07: 46: 38 PM:DEBUG [cursor_def_pool.py:11] Inicio del metodo witch y __enter__
+07: 46: 38 PM:DEBUG [conexion.py:37] Creacion del pool exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x000001C31D124050>
+07: 46: 38 PM:DEBUG [conexion.py:19] Conexion obtenida del pool: <connection object at 0x000001C31EED6AC0; dsn: 'user=postgres password=xxx dbname=test_bd host=127.0.0.1 port=5432', closed: 0>
+07: 46: 38 PM:DEBUG [usuario_dao.py:20] Seleccinando usuarios
+07: 46: 38 PM:DEBUG [cursor_def_pool.py:17] Se ejecuta el metodo exit
+07: 46: 38 PM:DEBUG [cursor_def_pool.py:23] Commit de la transaccion
+07: 46: 38 PM:DEBUG [conexion.py:48] Regresamos la conexion del pool: <connection object at 0x000001C31EED6AC0; dsn: 'user=postgres password=xxx dbname=test_bd host=127.0.0.1 port=5432', closed: 0>
+07: 46: 38 PM:INFO [menu_app_usuario.py:16] Usuario: 2 Quiroga 654
+07: 46: 38 PM:INFO [menu_app_usuario.py:16] Usuario: 4 Pagano 321
+07: 46: 47 PM:INFO [menu_app_usuario.py:18] Slimos de la aplicacion, Hasta la proxima!!
+07: 48: 51 PM:INFO [menu_app_usuario.py:16] Usuario: 2 Quiroga 654
+07: 48: 51 PM:INFO [menu_app_usuario.py:16] Usuario: 4 Pagano 321
+07: 49: 11 PM:INFO [menu_app_usuario.py:16] Usuario: 2 Quiroga 654
+07: 49: 11 PM:INFO [menu_app_usuario.py:16] Usuario: 4 Pagano 321
+07: 49: 12 PM:INFO [menu_app_usuario.py:16] Usuario: 2 Quiroga 654
+07: 49: 12 PM:INFO [menu_app_usuario.py:16] Usuario: 4 Pagano 321
+07: 49: 13 PM:INFO [menu_app_usuario.py:18] Slimos de la aplicación, Hasta la proxima!!
+07: 50: 18 PM:INFO [menu_app_usuario.py:17] Usuario: 2 Quiroga 654
+07: 50: 18 PM:INFO [menu_app_usuario.py:17] Usuario: 4 Pagano 321
+07: 50: 51 PM:DEBUG [cursor_def_pool.py:11] Inicio del metodo witch y __enter__
+07: 50: 51 PM:DEBUG [conexion.py:37] Creacion del pool exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x00000216ED95DFD0>
+07: 50: 51 PM:DEBUG [conexion.py:19] Conexion obtenida del pool: <connection object at 0x00000216ED8AA8A0; dsn: 'user=postgres password=xxx dbname=test_bd host=127.0.0.1 port=5432', closed: 0>
+07: 50: 51 PM:DEBUG [usuario_dao.py:20] Seleccinando usuarios
+07: 50: 51 PM:DEBUG [cursor_def_pool.py:17] Se ejecuta el metodo exit
+07: 50: 51 PM:DEBUG [cursor_def_pool.py:23] Commit de la transaccion
+07: 50: 51 PM:DEBUG [conexion.py:48] Regresamos la conexion del pool: <connection object at 0x00000216ED8AA8A0; dsn: 'user=postgres password=xxx dbname=test_bd host=127.0.0.1 port=5432', closed: 0>
+07: 50: 51 PM:INFO [menu_app_usuario.py:17] Usuario: 2 Quiroga 654
+07: 50: 51 PM:INFO [menu_app_usuario.py:17] Usuario: 4 Pagano 321
+07: 51: 05 PM:INFO [menu_app_usuario.py:17] Usuario: 2 Quiroga 654
+07: 51: 05 PM:INFO [menu_app_usuario.py:17] Usuario: 4 Pagano 321
+07: 55: 10 PM:INFO [menu_app_usuario.py:19] Salimos de la aplicación, Hasta la proxima!!

@@ -1,7 +1,7 @@
 import logging as log
 
 # Llamamos una configuración básica
-log.basicConfig(level=log.DEBUG,
+log.basicConfig(level=log.INFO, # Cambiamos log:DEBUG por log.INFO, para evitar ver informacion que por ahora es inecesaria
                 format="%(asctime)s:%(levelname)s [%(filename)s:%(lineno)s] %(message)s",
                 datefmt="%I: %M: %S %p",
                 handlers=[
