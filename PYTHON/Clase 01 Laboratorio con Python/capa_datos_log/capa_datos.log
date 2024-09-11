@@ -116,3 +116,46 @@
 07: 51: 05 PM:INFO [menu_app_usuario.py:17] Usuario: 2 Quiroga 654
 07: 51: 05 PM:INFO [menu_app_usuario.py:17] Usuario: 4 Pagano 321
 07: 55: 10 PM:INFO [menu_app_usuario.py:19] Salimos de la aplicación, Hasta la proxima!!
+08: 36: 10 PM:INFO [menu_app_usuario.py:18] Usuario: 2 Quiroga 654
+08: 36: 10 PM:INFO [menu_app_usuario.py:18] Usuario: 4 Pagano 321
+08: 36: 30 PM:DEBUG [cursor_def_pool.py:11] Inicio del metodo witch y __enter__
+08: 36: 30 PM:DEBUG [conexion.py:37] Creacion del pool exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x000002704D8B85D0>
+08: 36: 30 PM:DEBUG [conexion.py:19] Conexion obtenida del pool: <connection object at 0x000002704F68EAC0; dsn: 'user=postgres password=xxx dbname=test_bd host=127.0.0.1 port=5432', closed: 0>
+08: 36: 30 PM:DEBUG [usuario_dao.py:20] Seleccinando usuarios
+08: 36: 30 PM:DEBUG [cursor_def_pool.py:17] Se ejecuta el metodo exit
+08: 36: 30 PM:DEBUG [cursor_def_pool.py:23] Commit de la transaccion
+08: 36: 30 PM:DEBUG [conexion.py:48] Regresamos la conexion del pool: <connection object at 0x000002704F68EAC0; dsn: 'user=postgres password=xxx dbname=test_bd host=127.0.0.1 port=5432', closed: 0>
+08: 36: 30 PM:INFO [menu_app_usuario.py:18] Usuario: 2 Quiroga 654
+08: 36: 30 PM:INFO [menu_app_usuario.py:18] Usuario: 4 Pagano 321
+08: 36: 40 PM:INFO [menu_app_usuario.py:18] Usuario: 2 Quiroga 654
+08: 36: 40 PM:INFO [menu_app_usuario.py:18] Usuario: 4 Pagano 321
+08: 36: 49 PM:INFO [menu_app_usuario.py:24] Usuario 1 cargado exitosamente
+08: 36: 52 PM:INFO [menu_app_usuario.py:18] Usuario: 2 Quiroga 654
+08: 36: 52 PM:INFO [menu_app_usuario.py:18] Usuario: 4 Pagano 321
+08: 36: 52 PM:INFO [menu_app_usuario.py:18] Usuario: 5 Pepe 789
+08: 37: 29 PM:INFO [menu_app_usuario.py:32] Usuario actualizado: 1 
+08: 37: 31 PM:INFO [menu_app_usuario.py:18] Usuario: 2 Quiroga 654
+08: 37: 31 PM:INFO [menu_app_usuario.py:18] Usuario: 4 Pagano 321
+08: 37: 31 PM:INFO [menu_app_usuario.py:18] Usuario: 5 Pepe 789
+08: 37: 45 PM:INFO [menu_app_usuario.py:32] Usuario actualizado: 0 
+08: 39: 31 PM:INFO [menu_app_usuario.py:18] Usuario: 2 Quiroga 654
+08: 39: 31 PM:INFO [menu_app_usuario.py:18] Usuario: 4 Pagano 321
+08: 39: 31 PM:INFO [menu_app_usuario.py:18] Usuario: 5 Pepe 789
+08: 40: 43 PM:INFO [menu_app_usuario.py:18] Usuario: 2 Quiroga 654
+08: 40: 43 PM:INFO [menu_app_usuario.py:18] Usuario: 4 Pagano 321
+08: 40: 43 PM:INFO [menu_app_usuario.py:18] Usuario: 5 Pepe 789
+08: 40: 52 PM:INFO [menu_app_usuario.py:32] Usuario actualizado: 0 
+08: 40: 56 PM:INFO [menu_app_usuario.py:18] Usuario: 2 Quiroga 654
+08: 40: 56 PM:INFO [menu_app_usuario.py:18] Usuario: 4 Pagano 321
+08: 40: 56 PM:INFO [menu_app_usuario.py:18] Usuario: 5 Pepe 789
+08: 41: 26 PM:INFO [menu_app_usuario.py:32] Usuario actualizado: 1 
+08: 41: 29 PM:INFO [menu_app_usuario.py:18] Usuario: 2 Quiroga 654
+08: 41: 29 PM:INFO [menu_app_usuario.py:18] Usuario: 4 Pagano 321
+08: 41: 29 PM:INFO [menu_app_usuario.py:18] Usuario: 5 Juan 789
+08: 42: 40 PM:INFO [menu_app_usuario.py:37] Usuario eliminado: 0
+08: 42: 43 PM:INFO [menu_app_usuario.py:18] Usuario: 2 Quiroga 654
+08: 42: 43 PM:INFO [menu_app_usuario.py:18] Usuario: 4 Pagano 321
+08: 42: 43 PM:INFO [menu_app_usuario.py:18] Usuario: 5 Juan 789
+08: 42: 53 PM:INFO [menu_app_usuario.py:37] Usuario eliminado: 1
+08: 42: 59 PM:INFO [menu_app_usuario.py:18] Usuario: 2 Quiroga 654
+08: 42: 59 PM:INFO [menu_app_usuario.py:18] Usuario: 4 Pagano 321
