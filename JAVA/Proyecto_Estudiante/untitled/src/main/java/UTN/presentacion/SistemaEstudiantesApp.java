@@ -17,6 +17,36 @@ public class SistemaEstudiantesApp {
             } catch(Exception e){
                 System.out.println("Ocurrio un error al ejecutar la operacion " + e.getMessage());
             }
+        }// Fin while
+    }// Fin main
+
+private static void mostrarMenu(){
+    System.out.println("""
+            ******** Sistema de Estudiantes ********
+            1. Listar Estudiantes
+            2. Buscar Estudiantes
+            3. Agregar Estudiantes
+            4. Modificar Estudiantes
+            5. Eliminar Estudiante
+            6. Salir
+            Elige una opcion: 
+            """);
+}
+
+// Metodo para ejecutar las opciones, va a regresar un valor booleano, ya que es el que
+    // puede modificar el valor de la variable salir, si es verdadero termina el ciclo while
+    private static boolean ejecutarOpciones(Scanner consola, EstudianteDAO estudianteDAO){
+        var opcion = Integer.parseInt(consola.nextLine());
+        var salir = false;
+        switch (opcion){
+            case 1 -> { //Listar estudiantes
+                System.out.println("Listado de Estudiantes... ");
+                // No mostrar la informacion, solo recupera informacion y regresa una lista
+                var estudiantes = estudianteDAO.ListarEstudiantes(); // Recibe el listado
+                // Vamos a tener cada objeto de tipo estudiante
+
+            }
         }
     }
+
 }
