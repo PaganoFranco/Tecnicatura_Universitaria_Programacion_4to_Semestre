@@ -13,3 +13,14 @@ print(f"a: {a}")
 # Notacion exponencial (Valores positivos o negativos)
 a = 3e5 # al agregar la "e" determina un exponencial
 print(f"a: {a}")
+
+a = 3e-5
+print(f"a: {a}")
+print(f"a: {a:.5f}") # De esta forma podemos visualizar los ceros
+
+# Cualquier calculo que incluya un float, TODO CAMBIA A FLOAT
+
+a = 4.0 + 5
+print(a)
+print(type(a))
+
