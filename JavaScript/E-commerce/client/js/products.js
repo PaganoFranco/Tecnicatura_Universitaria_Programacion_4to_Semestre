@@ -1,3 +1,4 @@
+// Array de productos disponibles en la tienda
 const productos = [
 {
     id: 1,
