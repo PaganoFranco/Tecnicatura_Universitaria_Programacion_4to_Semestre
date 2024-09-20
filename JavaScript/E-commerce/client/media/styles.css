@@ -1,5 +1,5 @@
 /*Products Styles*/
-.card_products-containe {
+.card_products-container { 
     margin: 5vh auto;
 }
 
@@ -17,7 +17,7 @@
     height: 250px;
 }
 
-.card-products button{
+.card-products button {
     border: none;
     outline: 0;
     padding: 10px;
@@ -33,7 +33,7 @@
     opacity: 0.7;
 }
 
-/*cart button*/
+/*Cart button*/
 .cart-btn {
     position: fixed;
     top: 90vh;
@@ -48,5 +48,51 @@
 
 .cart-btn:hover {
     cursor: pointer;
-    opacity: 0.9;;
+    opacity: 0.9;
+    /* Hay un punto y coma extra después de "0.9", eliminalo para evitar advertencias innecesarias */
+}
+
+/*Modal*/
+.modal-overlay {
+    display: none;
+    background-color: rgba(0, 0, 0, 0.5); 
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+}
+
+.modal-container {
+    display: none;
+    background-color: #ffff;
+    box-shadow: 0px 3px 6px #00000029;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 500px;
+    width: 100%;
+    z-index: 2; 
+    /* Cambié z-index a 2 porque el modal debe estar por encima del overlay */
+    max-height: 80vh;
+    overflow-y: auto;
+}
+
+.modal-container::-webkit-scrollbar {
+    display: none;
+}
+
+.modal-close {
+    float: right;
+    cursor: pointer;
+}
+
+.modal-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
 }
