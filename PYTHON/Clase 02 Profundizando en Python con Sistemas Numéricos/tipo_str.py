@@ -1,3 +1,5 @@
+import math
+
 # Profucndizando en el tipo String
 # Concatenacion automatica en Python
 
@@ -8,4 +10,4 @@ mensaje += ", Terminamos"
 # print(mensaje)
 
 # usamos la clase help que esta incluida en python (built-in), se usa para ayudar o documentar
-help(str)
+help(math.isnan)
