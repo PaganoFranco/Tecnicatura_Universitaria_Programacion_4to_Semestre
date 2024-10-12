@@ -8,3 +8,12 @@ print(f"valor: {valor}, Resultado: {resultado}")
 valor = 1
 resultado = bool(valor)
 print(f"valor: {valor}, Resultado: {resultado}")
+
+# Tipo String -> False "", True otro valor
+valor = "Hola"
+resultado = bool(valor)
+print(f"valor: {valor}, Resultado: {resultado}")
+
+valor = ""
+resultado = bool(valor)
+print(f"valor: {valor}, Resultado: {resultado}")
