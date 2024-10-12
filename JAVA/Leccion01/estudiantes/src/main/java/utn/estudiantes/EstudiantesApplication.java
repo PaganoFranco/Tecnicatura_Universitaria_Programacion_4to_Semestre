@@ -10,5 +10,5 @@ public class EstudiantesApplication {
 		SpringApplication.run(EstudiantesApplication.class, args);
 	}
 // Tenemos el main con la clase Sprint
-	
+
 }
