@@ -6,4 +6,3 @@ import utn.estudiantes.modelo.Estudiante;
 public interface EstudianteRepositorio extends JpaRepository<Estudiante, Integer>{
 
 }
- 
