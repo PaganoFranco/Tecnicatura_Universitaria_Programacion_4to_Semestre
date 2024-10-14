@@ -133,8 +133,8 @@
     margin-right: 4em;
 }
 
-.quantity-btn-decrese,
-.quantity-btn-increse {
+.quantity-btn-increase,
+.quantity-btn-decrease {
     color: #333;
     cursor: pointer;
     font-size: 16px;

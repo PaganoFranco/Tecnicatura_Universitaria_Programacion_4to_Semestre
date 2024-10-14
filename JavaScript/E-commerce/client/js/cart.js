@@ -63,6 +63,20 @@ const displayCart = () => {
         `;
         modalContainer.append(modalBody);
 
+        const decrease = modalBody.querySelector(".quantity-btn-decrease");
+        decrease.addEventListener("click", ()=> {
+            if(product.quanty !== 1){
+                product.quanty--;
+                displayCart();
+            }
+        });
+    
+        const increase = modalBody.querySelector(".quantity-btn-increase");
+        increase.addEventListener("click", ()=> {
+            product.quanty++;
+            displayCart();
+        });
+
     })
 
     //modal footer
@@ -72,6 +86,7 @@ const displayCart = () => {
     <div class="total-price">Total :)</div>
     `;
     modalContainer.append(modalFooter);
+
 }
 
 // Se añade un event listener al botón del carrito. Al hacer clic, se ejecutará la función displayCart.
