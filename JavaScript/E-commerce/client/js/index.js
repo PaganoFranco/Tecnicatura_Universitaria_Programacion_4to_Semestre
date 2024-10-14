@@ -29,15 +29,24 @@ productos.forEach((product) => {
 
     // Añadimos un evento para detectar clics en el botón "Comprar"
     buyButton.addEventListener("click", () => {
-        // Cuando el botón es clicado, agregamos el producto al carrito
-        cart.push({
-            id: product.id, // El identificador del producto
-            productName: product.productName, // El nombre del producto
-            price: product.price, // El precio del producto
-            quanty: product.quanty, // La cantidad del producto
-            img: product.img, // La imagen del producto
-        });
+        const repeat = cart.some((repeatProduct) => repeatProduct.id === product.id);
 
+        if(repeat){
+            cart.map((prod) => {
+                if(prod.id === product.id){
+                    prod.quanty++;
+                }
+            });
+            } else {
+                // Cuando el botón es clicado, agregamos el producto al carrito
+                cart.push({
+                    id: product.id, // El identificador del producto
+                    productName: product.productName, // El nombre del producto
+                    price: product.price, // El precio del producto
+                    quanty: product.quanty, // La cantidad del producto
+                    img: product.img, // La imagen del producto
+                });
+                }
         // Mostramos el contenido actual del carrito en la consola para verificar los productos agregados
         console.log(cart);
     });
