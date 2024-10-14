@@ -77,7 +77,13 @@ const displayCart = () => {
             displayCart();
         });
 
-    })
+        //delete
+        const deleteProduct = modalBody.querySelector(".delete-product");
+        deleteProduct.addEventListener("click", ()=> {
+            deleteCartProduct(product.id);
+        });
+
+    });
 
     //modal footer
     const total = cart.reduce((acc, el) => acc + el.price * el.quanty, 0);
@@ -89,7 +95,13 @@ const displayCart = () => {
     `;
     modalContainer.append(modalFooter);
 
-}
+};
 
 // Se añade un event listener al botón del carrito. Al hacer clic, se ejecutará la función displayCart.
 cartBtn.addEventListener("click", displayCart);
+
+const deleteCartProduct = (id) => {
+    const foundId = cart.findIndex((element) => element.id === id);
+    cart.splice(foundId, 1);
+    displayCart();
+};
