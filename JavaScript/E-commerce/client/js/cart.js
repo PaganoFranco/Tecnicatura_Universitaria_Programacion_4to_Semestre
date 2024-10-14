@@ -61,8 +61,17 @@ const displayCart = () => {
             <div class="delete-product">❌</div> 
         </div>
         `;
-        modalContainer.append(modalBody)
+        modalContainer.append(modalBody);
+
     })
+
+    //modal footer
+    const modalFooter = document.createElement("div");
+    modalFooter.className= "modal-footer";
+    modalFooter.innerHTML = `
+    <div class="total-price">Total :)</div>
+    `;
+    modalContainer.append(modalFooter);
 }
 
 // Se añade un event listener al botón del carrito. Al hacer clic, se ejecutará la función displayCart.
