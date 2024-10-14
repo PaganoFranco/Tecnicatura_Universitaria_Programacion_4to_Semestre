@@ -1,0 +1,35 @@
+<diagram program="umletino" version="15.1"><zoom_level>9</zoom_level><element><id>UMLClass</id><coordinates><x>108</x><y>27</y><w>270</w><h>207</h></coordinates><panel_attributes>EMPLEADO
+--
+-nombre: String
+-id: int
+-salario: double
+-fechaContratacion: Date
+-direccion: String
+-telefono: String
+-email: String
+--
++ calcularSalario(): double
++ mostrarInformacion(): void
++ actualizarDireccion(direccion: String): void
++ actualizarTelefono(telegono: String): void
++ actualizarEmail(emai: String): void
++ SolicitarVacaiones(dias: int): boolean</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>0</x><y>297</y><w>252</w><h>135</h></coordinates><panel_attributes>DESARROLLADOR
+--
+- lenguaje: String
+- niverExperiencia: String
+- proyectosAsignados: List&lt;String&gt;
+--
++ desarrollarCodigo(): void
++ realizarTesting(): void
++ reportarProgreso(Proyecto: String): void
++ asignarProyecto(proyecto: String): void</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>297</x><y>297</y><w>324</w><h>135</h></coordinates><panel_attributes>GERENTE
+--
+- equipo: List&lt;Empleado&gt;
+- presupuesto: double
+- proyectosSupervisador: List&lt;String&gt;
+--
++ gestionarEquipo(): void
++ aprobarPresupuesto(monto: double): boolean
++ evalularDesempeño(empleado: Empleado): String 
++ asignarTarea(empleado: Empleado, tarea: Striong): void
++ supervisarProyecto(proyecto: String): void</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>117</x><y>225</y><w>135</w><h>99</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;90;10;40;130;40;130;10</additional_attributes></element><element><id>Relation</id><coordinates><x>225</x><y>225</y><w>225</w><h>90</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>230;80;230;40;10;40;10;10</additional_attributes></element></diagram>
