@@ -1,0 +1,1 @@
+Trabajamos en el archivo globales.js

@@ -1,0 +1,68 @@
+Aquí tienes los comandos principales para trabajar con **PM2**, un administrador de procesos que ayuda a ejecutar, monitorear y manejar aplicaciones Node.js en producción:
+
+### 1. **Instalar PM2**
+   ```bash
+   npm install -g pm2
+   ```
+
+### 2. **Iniciar una Aplicación**
+   Para ejecutar una aplicación con PM2:
+   ```bash
+   pm2 start app.js
+   ```
+   Puedes reemplazar `app.js` con el nombre de tu archivo.
+
+### 3. **Detener una Aplicación**
+   Detener una aplicación específica por su nombre o ID:
+   ```bash
+   pm2 stop <nombre_o_id>
+   ```
+
+### 4. **Reiniciar una Aplicación**
+   Reinicia la aplicación especificada:
+   ```bash
+   pm2 restart <nombre_o_id>
+   ```
+
+### 5. **Eliminar una Aplicación**
+   Elimina la aplicación de PM2 (no la apaga, sino que la quita del administrador de procesos):
+   ```bash
+   pm2 delete <nombre_o_id>
+   ```
+
+### 6. **Ver el Estado de las Aplicaciones**
+   Muestra un resumen de todas las aplicaciones gestionadas por PM2:
+   ```bash
+   pm2 list
+   ```
+
+### 7. **Ver los Logs**
+   Verifica los logs de una aplicación específica:
+   ```bash
+   pm2 logs <nombre_o_id>
+   ```
+   O visualiza los logs de todas las aplicaciones:
+   ```bash
+   pm2 logs
+   ```
+
+### 8. **Guardar la Configuración Actual**
+   PM2 permite guardar la configuración de las aplicaciones en ejecución para que se restauren en reinicios del sistema:
+   ```bash
+   pm2 save
+   ```
+
+### 9. **Cargar Aplicaciones Guardadas Automáticamente**
+   Para que las aplicaciones se inicien automáticamente al reiniciar el sistema:
+   ```bash
+   pm2 startup
+   ```
+   Esto generará un comando que debes ejecutar para configurar PM2 como un servicio que se inicie al arrancar el sistema.
+
+### 10. **Actualizar PM2**
+   En caso de necesitar actualizar PM2 a la última versión:
+   ```bash
+   pm2 update
+   ```
+
+Estos comandos te permiten gestionar eficientemente aplicaciones Node.js en producción y monitorizar su desempeño de forma automática.

@@ -1,0 +1,2 @@
+Trabajamos en el archivo Hola-Mundo
+Creamos el archivo entorno.js y trabajamos en el creando variables de nombre y miWeb

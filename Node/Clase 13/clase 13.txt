@@ -1,0 +1,2 @@
+Módulos -> File System
+trabajamos en el archivo fs.js y creamos el archivo llamado archivo.txt

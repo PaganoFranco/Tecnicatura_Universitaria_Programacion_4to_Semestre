@@ -1,0 +1,4 @@
+Trabajamos en el archivo promises
+
+
+ECMAScript 6: nueva sintaxis y características para JavaScript
