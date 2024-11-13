@@ -36,3 +36,17 @@ A jugar!
         password: # colocar token que hemos creado
 ```
 
+# Archivo requerements.txt
+
+<br> Vamos a ver este archivo, este gestiona todas las dependencias y en que versiones se necesitan, vamos a dejar aqui
+los comandos para que alguien logre contribuir en este protecto, los comando son los siguientes:  <br>
+
+```sh
+    git clone htttps://...
+    cd app
+    python3 -m venv env # Se debe crear el entorno virtual, este no se comparte desde Githib
+    source env/bin/activate # activamos el entorno en linux
+    venv/Script/activate #Activamos el entorno en window
+    pip3 install -r requierements.txt #Instala las dependencias el -r significa reutilizar
+    python 3 main.py # Ejecutamos el programa 
+```
